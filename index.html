@@ -5,20 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="js/jquery-3.7.1.min.js"></script>
   </head>
   <body>
     <div id="maindiv">
       <h1>Dogs Breeds</h1>
       <label for="dog-list">Select the breed</label>
       <select name="dog-list" id="dog-list"></select>
-      <div id="loading">Loading...</div>
-      <button id="button">Get image of dog</button>
-      <div id="load"></div>
-      <div>
-        <img id="img" />
-      </div>
+      <button type="submit" id="submitBtn" class="submitBtn">Get Image</button>
     </div>
-    <script type="module" src="/main.js"></script>
+    <img id="dogImage" class="dogImage" />
+    <script src="dog.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
